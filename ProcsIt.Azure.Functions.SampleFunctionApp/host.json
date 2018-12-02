@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+
+  "Logging": {
+    "includeScopes": false,
+    // options are: never, always, debugOnly
+    "fileLoggingMode": "debugOnly",
+    "logLevel": {
+      // For function and services. Debug is a valid level but is NOT logged!
+      "function": "debug",
+      // Disable default host logging (Critical=5, None=6).
+      "default": "None",
+      "JobHostService": "None",
+      "Microsoft.Azure.WebJobs.Hosting.JobHostService": "None"
+    }
+  }
+}
