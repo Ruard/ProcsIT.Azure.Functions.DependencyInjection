@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
-namespace ProcsIT.Azure.Functions.DependencyInjection.Services
+namespace ProcsIT.Azure.Functions.SampleFunctionApp.Services
 {
     public class LoggingService : ILogger
     {

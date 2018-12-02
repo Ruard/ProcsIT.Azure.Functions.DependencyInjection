@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProcsIT.Azure.Functions.DependencyInjection.Services
+namespace ProcsIT.Azure.Functions.SampleFunctionApp.Services
 {
     public class GenericLoggingService<T> : ILogger<T>
     {

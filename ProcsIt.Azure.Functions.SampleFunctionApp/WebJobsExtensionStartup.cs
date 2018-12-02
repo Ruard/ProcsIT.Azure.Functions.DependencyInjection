@@ -1,12 +1,11 @@
-﻿using Document.Export.Function.Services;
-using Microsoft.Azure.WebJobs;
+﻿using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using ProcsIT.Azure.Functions.DependencyInjection;
 using ProcsIT.Azure.Functions.DependencyInjection.Provider.Config;
-using ProcsIT.Azure.Functions.DependencyInjection.Services;
+using ProcsIT.Azure.Functions.SampleFunctionApp.Services;
 using System;
 
 [assembly: WebJobsStartup(typeof(WebJobsExtensionStartup))]

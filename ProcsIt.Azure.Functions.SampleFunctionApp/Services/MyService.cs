@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Document.Export.Function.Services
+namespace ProcsIT.Azure.Functions.SampleFunctionApp.Services
 {
     public class MyService : IMyService
     {
